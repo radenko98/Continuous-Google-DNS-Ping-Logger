@@ -1,3 +1,5 @@
+You can use this script to monitor how stable is your internet connection and often does your internet connection drop.
+
 This Python script continuously pings Google DNS (8.8.8.8) using the ping command with the -t option, which means the ping operation runs indefinitely until stopped manually. 
 The script monitors the output of the ping command and performs the following actions based on the result:
 
