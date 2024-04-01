@@ -11,7 +11,14 @@ The script monitors the output of the ping command and performs the following ac
 
 This script is useful for monitoring the connectivity to Google DNS and logging any downtime along with the duration of the downtime.
 
-***HOW TO RUN***
+
+***HOW TO RUN as a executable that can be run on Windows without needing Python installed***
+
+Just download the RAR file and extract it using WinRar and start the "Continuous_Google_DNS_Ping_Logger.exe"
+
+
+
+***HOW TO RUN as a Python Script***
 
 To run the provided Python scripts, you can follow these general steps:
 
