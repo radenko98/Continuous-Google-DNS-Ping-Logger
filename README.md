@@ -33,6 +33,6 @@ It will look like this
 
 ![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/f04ab2ad-d3aa-4e12-98b6-34eedadfadf2)
 
+![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/c670dbd0-fd68-4e6e-84d7-20bdd6b1e8ca)
 
-![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/b5826dff-8d05-4e7d-bab0-8bdc0f878521)
 
