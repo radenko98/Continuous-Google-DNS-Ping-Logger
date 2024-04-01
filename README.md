@@ -29,4 +29,10 @@ Run script using the python command. For example:
 
 ![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/f28a6887-ddc4-4ca7-8dfd-8b846723db9b)
 
+It will look like this
+
+![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/f04ab2ad-d3aa-4e12-98b6-34eedadfadf2)
+
+
+![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/b5826dff-8d05-4e7d-bab0-8bdc0f878521)
 
