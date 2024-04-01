@@ -27,3 +27,6 @@ Run script using the python command. For example:
 
 *python Continuous-Google-DNS-Ping-Logger.py*
 
+![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/f28a6887-ddc4-4ca7-8dfd-8b846723db9b)
+
+
