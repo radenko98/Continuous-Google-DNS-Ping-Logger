@@ -1,15 +1,13 @@
-You can use this script to monitor how stable is your internet connection and often does your internet connection drop.
+This Python script helps you monitor the stability of your internet connection and detect periods of downtime. It continuously pings Google's public DNS server (8.8.8.8) with a 128-byte payload, running indefinitely until manually stopped.
 
-This Python script continuously pings Google DNS (8.8.8.8) using the ping command with the -t option, which means the ping operation runs indefinitely until stopped manually. 
-The script monitors the output of the ping command and performs the following actions based on the result:
+The script uses the -t and -l options with the ping command to keep the operation continuous. It analyzes the ping responses and performs the following actions:
 
-  1. If a successful ping reply is received from Google DNS ("Reply from 8.8.8.8:"), it prints a success message along with the current timestamp.
-  2. If the ping times out ("Request timed out"), indicating an unsuccessful ping, it prints a failure message along with the current timestamp.
-  3. If an unsuccessful ping is followed by a successful ping, it calculates the duration in seconds between the start time of the unsuccessful ping and the time of the successful ping.
-     It then logs this duration along with the timestamps in a file named ping_logs.txt.
-  4. The script runs indefinitely, continuously monitoring the ping output.
+1. Successful Ping: When a reply is received from Google DNS ("Reply from 8.8.8.8:"), the script prints a success message with the current timestamp to the console.
+2. Unsuccessful Ping: If the ping times out ("Request timed out"), indicating a failure, the script prints a failure message with the current timestamp to the console.
+3. Transition from Failure to Success: If a previously unsuccessful ping is followed by a successful ping, the script calculates the duration of the downtime in seconds.
 
-This script is useful for monitoring the connectivity to Google DNS and logging any downtime along with the duration of the downtime.
+It logs this duration, along with the relevant timestamps, in a file named ping_logs.txt.
+The script continuously monitors these conditions, providing real-time feedback and logging any interruptions in connectivity. This makes it a valuable tool for tracking network stability and identifying periods of downtime.
 
 
 ***HOW TO RUN as a executable that can be run on Windows without needing Python installed***
