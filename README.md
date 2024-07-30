@@ -18,18 +18,19 @@ Running a 128-byte payload instead of the standard 32-byte payload when testing 
 
 2. Increased Sensitivity to Network Issues:
 **Packet Fragmentation:** Larger packets are more susceptible to issues like fragmentation, especially in networks with lower Maximum Transmission Units (MTUs). Testing with a 128-byte payload can help identify problems that may not be evident with smaller packets.
+
 **Error Detection:** Larger packets have a higher chance of encountering errors or loss, as they occupy more bandwidth and may be affected by various network conditions. This can make it easier to detect intermittent issues or marginal links.
 
-3. Bandwidth Utilization Testing:
+4. Bandwidth Utilization Testing:
 **Network Strain:** Sending larger packets can put more strain on the network, helping to test the network's ability to handle higher data loads. This can be especially useful for identifying bottlenecks or limitations in network infrastructure.
 
-4. More Accurate Latency Measurement:
+5. More Accurate Latency Measurement:
 **Latency Testing:** Larger packets can provide a better measure of latency in some cases, as they may take longer to traverse the network and thus more accurately reflect delays introduced by routers, switches, and other networking equipment.
 
-5. Detection of Throttling or Traffic Shaping:
+6. Detection of Throttling or Traffic Shaping:
 **Network Policies:** Some networks implement policies that throttle or shape traffic based on packet size. By using a larger payload, you can detect if there are specific policies in place that might affect performance differently for small vs. larger packets.
 
-6. Enhanced Diagnostic Information:
+7. Enhanced Diagnostic Information:
 **ICMP Packet Analysis:** Larger ICMP Echo Request packets can sometimes carry additional diagnostic information, allowing for more detailed analysis of network performance characteristics.
 
 **Conclusion:**
