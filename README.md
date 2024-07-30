@@ -65,6 +65,7 @@ It will look like this
 
 ![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/f04ab2ad-d3aa-4e12-98b6-34eedadfadf2)
 
-![image](https://github.com/radenko98/Continuous-Google-DNS-Ping-Logger/assets/22021972/c670dbd0-fd68-4e6e-84d7-20bdd6b1e8ca)
+
+![Snimak ekrana 2024-07-30 234253](https://github.com/user-attachments/assets/315ef91a-86c4-4db3-8696-341592ba9928)
 
 
