@@ -6,7 +6,23 @@ The script uses the -t and -l options with the ping command to keep the operatio
 2. Unsuccessful Ping: If the ping times out ("Request timed out"), indicating a failure, the script prints a failure message with the current timestamp to the console.
 3. Transition from Failure to Success: If a previously unsuccessful ping is followed by a successful ping, the script calculates the duration of the downtime in seconds.
 
-It logs this duration, along with the relevant timestamps, in a file named ping_logs.txt.
+**The script records the duration along with the relevant timestamps in a folder named using the "YYYY" format, and within it, a file named in the "YYYYMMDD_ping_log.txt" format. For example, it will create a folder named "2024" and then a file "20241128_ping_log.txt".**
+
+2024/
+
+  ├── 20240101_ping_log.txt    (2024 January 01) 
+
+  ├── 20240102_ping_log.txt    (2024 January 02)  
+
+  └── 20241128_ping_log.txt    (2024 November 28)
+
+2025/
+
+  └── 20250101_ping_log.txt    (2025 January 01)
+
+**However, the log file will only be created if there is an unsuccessful ping on that particular day.**
+
+
 The script continuously monitors these conditions, providing real-time feedback and logging any interruptions in connectivity. This makes it a valuable tool for tracking network stability and identifying periods of downtime.
 
 
