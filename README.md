@@ -53,7 +53,7 @@ Using a 128-byte payload for ping tests offers a more realistic and thorough exa
 
 ***HOW TO RUN as a executable that can be run on Windows without needing Python installed***
 
-Just download the RAR file and extract it using WinRar and start the "Continuous_Google_DNS_Ping_Logger.exe"
+***Just download the Continuous_Google_DNS_Ping_Logger.exe and open it.***
 
 
 
